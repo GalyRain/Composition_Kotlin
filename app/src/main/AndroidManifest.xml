@@ -9,6 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Composition_Kotlin">
+        <activity android:name=".fragment_game"></activity>
+        <activity android:name=".fragment_choose_level" />
         <activity android:name=".presentation.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
