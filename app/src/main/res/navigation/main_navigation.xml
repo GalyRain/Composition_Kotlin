@@ -9,11 +9,11 @@
         android:name="com.white_dragon.composition_kotlin.presentation.WelcomeFragment"
         android:label="WelcomeFragment" >
         <action
-            android:id="@+id/action_welcomeFragment_to_chooseLevelFragment3"
-            app:destination="@id/chooseLevelFragment3" />
+            android:id="@+id/action_welcomeFragment_to_chooseLevelFragment"
+            app:destination="@id/chooseLevelFragment" />
     </fragment>
     <fragment
-        android:id="@+id/chooseLevelFragment3"
+        android:id="@+id/chooseLevelFragment"
         android:name="com.white_dragon.composition_kotlin.presentation.ChooseLevelFragment"
         android:label="fragment_choose_level"
         tools:layout="@layout/fragment_choose_level" >

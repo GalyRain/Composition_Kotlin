@@ -41,22 +41,10 @@ class ChooseLevelFragment : Fragment() {
 
     private fun launchGameFragment(level: Level) {
         findNavController().navigate(ChooseLevelFragmentDirections.actionChooseLevelFragmentToGameFragment(level))
-//        requireActivity().supportFragmentManager.beginTransaction() // переделали навигацию
-//            .replace(R.id.main_container, GameFragment.newInstance(level))
-//            .addToBackStack(GameFragment.NAME)
-//            .commit()
     }
 
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null
     }
-
-//    companion object { // переделали навигацию
-//
-//        const val  NAME = "ChooseLevelFragment"
-//        fun newInstance(): ChooseLevelFragment {
-//            return ChooseLevelFragment()
-//        }
-//    }
 }
